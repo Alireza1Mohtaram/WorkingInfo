@@ -5,15 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
 import com.alireza.claculatework.R
-import com.alireza.claculatework.databinding.FragmentSecondBinding
+import com.alireza.claculatework.databinding.FragmentDayBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class DayFragment : Fragment(R.layout.fragment_second) {
+class DayFragment : Fragment(R.layout.fragment_day) {
 
-    private var _binding: FragmentSecondBinding? = null
+    private var _binding: FragmentDayBinding? = null
 
     private val binding get() = _binding!!
 
@@ -22,7 +21,7 @@ class DayFragment : Fragment(R.layout.fragment_second) {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentDayBinding.inflate(inflater, container, false)
         return binding.root
 
     }

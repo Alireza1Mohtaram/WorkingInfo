@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/drawable/add.xml" value="0.1615" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/activity_main.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/content_main.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/fragment_day.xml" value="0.2234375" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/fragment_first.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/fragment_season.xml" value="0.2234375" />
+        <entry key="..\:/Users/Alireza/AndroidStudioProjects/WorkingInfo1/app/src/main/res/layout/season_item_layout.xml" value="0.2269021739130435" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.17864583333333334" />
         <entry key="app/src/main/res/layout/fragment_add_season.xml" value="0.175" />

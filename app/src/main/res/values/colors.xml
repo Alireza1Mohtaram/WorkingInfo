@@ -3,13 +3,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primary_light">#9A67EA</color>
+    <color name="primary_light">#EAE5C0</color>
     <color name="primary_dark">#688f4e</color>
-    <color name="primary">#b1d182</color>
-    <color name="primary_row_data">#EFFFEB3B</color>
+    <color name="primary">#6C8B47</color>
+    <color name="primary_row_data">#F6CB18</color>
 
-    <color name="secondary">#b388ff</color>
-    <color name="secondary_light">#b388ff</color>
-    <color name="secondary_dark">#805acb</color>
+    <color name="secondary">#A7C684</color>
+    <color name="secondary_light">#9DBA7D</color>
+    <color name="secondary_dark">#9CC174</color>
 
 </resources>

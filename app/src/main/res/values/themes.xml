@@ -3,7 +3,7 @@
     <style name="Base.Theme.ClaculateWork" parent="Theme.Material3.DayNight.NoActionBar">
     </style>
 
-    <style name="Theme.ClaculateWork" parent="Base.Theme.ClaculateWork" >
+    <style name="Theme.App" parent="Base.Theme.ClaculateWork" >
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>

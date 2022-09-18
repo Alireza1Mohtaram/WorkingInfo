@@ -3,30 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/SeasonFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/SeasonFragment"
         android:name="com.alireza.claculatework.ui.season.SeasonFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_season">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_seasonFragment_to_DayFragment"
+            app:destination="@id/DayFragment" />
         <action
-            android:id="@+id/action_FirstFragment_to_addSeasonFragment"
+            android:id="@+id/action_SeasonFragment_to_addSeasonFragment"
             app:destination="@id/addSeasonFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/DayFragment"
         android:name="com.alireza.claculatework.ui.day.DayFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_day">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_DayFragment_to_SeasonFragment"
+            app:destination="@id/SeasonFragment" />
     </fragment>
     <fragment
         android:id="@+id/addSeasonFragment"
@@ -34,7 +34,7 @@
         android:label="fragment_add_season"
         tools:layout="@layout/fragment_add_season" >
         <action
-            android:id="@+id/action_addSeasonFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_addSeasonFragment_to_DayFragment"
+            app:destination="@id/SeasonFragment" />
     </fragment>
 </navigation>
